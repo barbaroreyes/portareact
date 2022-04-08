@@ -1,21 +1,43 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
-.cardDad{
+h2{
+  width: 100%;
+  align-items: center;
+}
+.cards{
   border:1px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
-  padding: 10px;
+  align-items: center;
+  text-align: center;
+
 }
 .card-project{
-  width: 30%;
+  width:100%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:center;
+  /* flex-direction: column;
   justify-content:center;
   align-items:center;
   border:1px solid black;
-  border-radius:10px 20px;
+  border-radius:10px 20px; */
+}
+.cardInt{
+width: 30%;
+display: flex;
+flex-wrap: wrap;
+}
+.card{
+  width: 100%;
+  border:1px solid black;
+  margin :10px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
 }
 /* 
 .App-logo {

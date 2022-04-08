@@ -5,10 +5,10 @@ const Projects = () => {
     const projects  = useContext(ProjectContex)
     console.log(projects)
   return (
-    <div>
-      Projects
+    <div className="cards">
+        <h2>Projects</h2>
       {projects.map((item , i)=>{
-        return (<div className="cardDad" key={i}><Project {...item}/></div>) 
+        return (<div key={i} className="cardInt"><Project {...item}/></div>) 
       })}
     </div>
   );
