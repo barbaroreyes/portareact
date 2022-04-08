@@ -2,14 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {ProjectProvider} from './contex/projects'
 import {BrowserRouter as Router} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ProjectProvider>
     <Router>
     <App />
     </Router>
+    </ProjectProvider>
+    
     
   </React.StrictMode>,
   document.getElementById('root')
