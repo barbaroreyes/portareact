@@ -2,10 +2,15 @@ import React ,{useState} from 'react';
 import {Link} from 'react-router-dom'
 const Header = () => {
   const [open , setOpen] = useState(false)
+  const [line , setLine] = useState(true)
+  const all = () =>{
+    setOpen(!open)
+    setLine(!line)
+  }
   return (
     <div className="header">
       <nav >
-        <ul onClick={() =>setOpen(false)}
+        <ul onClick={() =>all()}
        style={{marginTop:open ? 
        '70px':'-70vw'}}>
           <li>
@@ -23,8 +28,15 @@ const Header = () => {
          </ul>
         </nav>
       <div>foto</div>
-      <div className="movil-nav" onClick={() => setOpen(!open)}>
-     <div className="line"></div>
+      <div
+      onClick={() =>all()}
+      style={{flexDirection:line?
+      'column':'row'}}
+      
+       className="movil-nav" >
+     <div 
+     
+     className="line"></div>
       <div className="line"></div>
       <div className="line"></div>
      </div>
