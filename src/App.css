@@ -144,11 +144,14 @@ h1{
    font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 770px) {
   .cardInt{
     width: 32%;
     height: 37vh;
+  }.home{
+    margin: 100px;
   }
+ 
 }
 /* 
 .App-logo {
