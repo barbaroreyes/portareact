@@ -6,10 +6,7 @@ const Project = (props) => {
     <div className="card-project">
        <div className="card">
        <h3>{props.name}</h3>
-        <p>{props.description}</p>
-        <a href={props.live}>live</a>
-        <h3>{props.tecnologies}</h3>
-        <a href={props.github}>github</a>
+       <h3>{props.tecnologies}</h3>
         <h4>{props.category}</h4>
        </div>
 
