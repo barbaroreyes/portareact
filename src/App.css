@@ -129,6 +129,9 @@ li a{
     width : 30%;
   }.header{
     margin: 50px;
+  }.kidproject{
+    width : 30%;
+    height:  60px;
   }
 }
 @media (min-width: 1200px) {
@@ -149,7 +152,7 @@ li a{
   }
 } */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -171,4 +174,4 @@ li a{
   to {
     transform: rotate(360deg);
   }
-}
+} */

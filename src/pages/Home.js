@@ -21,10 +21,7 @@ const Home = () => {
         <div className='kidproject'>projec</div>
         <div className='kidproject'>projec</div>
         <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
+        
        
         {/* <div className='kidproject'>projec</div> */}
         {/* <div className='kidproject'>projec</div>
