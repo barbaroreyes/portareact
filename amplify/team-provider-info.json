@@ -10,6 +10,14 @@
       "StackName": "amplify-portareact-dev-134858",
       "StackId": "arn:aws:cloudformation:us-east-1:217175807922:stack/amplify-portareact-dev-134858/64bff930-b6a3-11ec-b354-0a978f85bcc3",
       "AmplifyAppId": "d3hyvnudbfqu22"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3hyvnudbfqu22",
+          "type": "manual"
+        }
+      }
     }
   }
 }
