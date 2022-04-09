@@ -7,20 +7,11 @@ const Home = () => {
        picture
       </div>
       <div className="dadproject">
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
-        <div className='kidproject'>projec</div>
+        <div className='kidproject'>Full-Stack</div>
+        <div className='kidproject'>Front-End</div>
+        <div className='kidproject'>Backend</div>
+        <div className='kidproject'>UX_UI</div>
+        
         
        
         {/* <div className='kidproject'>projec</div> */}
