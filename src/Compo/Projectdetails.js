@@ -17,6 +17,9 @@ const Projectdetails = () => {
         <h3>{tecnologies}</h3>
         <a href={github}>github</a>
         <h4>{category}</h4>
+        <div className = "logo">
+        <img className="logoImage" src = {description} alt=''/>
+        </div>
         <button onClick={()=>history('/projects')}> All Projects</button>
        </div>
 
