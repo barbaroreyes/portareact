@@ -166,6 +166,7 @@ h1{
   }
 }
 @media (min-width: 770px) {
+
   .cardInt{
     width: 32%;
     height: 25vh;
@@ -202,9 +203,12 @@ h1{
 }
 @media (min-width: 1300px){
   .movil-nav{
-    display:none;
-  }.navigation{
     display:flex;
+  }.navigation{
+    display:none;
+  } .cardInt{
+    width: 26%;
+    height: 35vh;
   }
   
 }
