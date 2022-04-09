@@ -3,7 +3,22 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="home">
-      Home
+      <div className="picture">picture</div>
+      <div className="dadproject">
+        <div className='kidproject'>projec</div>
+        {/* <div className='kidproject'>projec</div> */}
+        {/* <div className='kidproject'>projec</div>
+        <div className='kidproject'>projec</div>
+        <div className='kidproject'>projec</div>
+        <div className='kidproject'>projec</div>
+        <div className='kidproject'>projec</div>
+        <div className='kidproject'>projec</div>
+        <div className='kidproject'>projec</div>
+        <div className='kidproject'>projec</div> */}
+       
+
+
+      </div>
     </div>
   )
 }
