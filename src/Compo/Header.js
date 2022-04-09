@@ -32,8 +32,7 @@ const Header = () => {
       onClick={() =>all()}
       style={{flexDirection:line?
       'column':'row'}}
-      
-       className="movil-nav" >
+      className="movil-nav" >
      <div 
      
      className="line"></div>
@@ -41,7 +40,20 @@ const Header = () => {
       <div className="line"></div>
      </div>
       
-
+   <ul className="navigation">
+   <li>
+            <Link to='/'>Home</Link>
+          </li>
+          <li>
+            <Link to='/projects'>Projects</Link>
+          </li>
+          <li>
+            <Link to='/about'>About</Link>
+          </li>
+          <li>
+            <Link to='/contact'>Contact</Link>
+          </li>
+   </ul>
     </div>
   );
 }
