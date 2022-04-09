@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 const Project = (props) => {
+ 
   return (
     <div className="card-project">
        <div className="card">
@@ -9,7 +10,7 @@ const Project = (props) => {
        <h3>{props.tecnologies}</h3>
         <h4>{props.category}</h4>
        </div>
-
+       
       
     </div>
   );

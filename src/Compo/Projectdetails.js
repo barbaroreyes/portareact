@@ -1,7 +1,9 @@
 import React , {useContext} from 'react'
 import {ProjectContex} from '../contex/projects'
-import {useParams} from 'react-router-dom'
+import {useParams ,useNavigate} from 'react-router-dom'
+
 const Projectdetails = () => {
+  const history = useNavigate()
     const projects  = useContext(ProjectContex)
     const {id} = useParams() 
     const projectd = projects.find(item => item.id === id)
@@ -15,6 +17,7 @@ const Projectdetails = () => {
         <h3>{tecnologies}</h3>
         <a href={github}>github</a>
         <h4>{category}</h4>
+        <button onClick={()=>history('/projects')}> All Projects</button>
        </div>
 
       

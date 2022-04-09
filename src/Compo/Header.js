@@ -1,10 +1,13 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import {Link} from 'react-router-dom'
 const Header = () => {
+  const [open , setOpen] = useState(false)
   return (
     <div className="header">
-      <nav>
-        <ul>
+      <nav >
+        <ul onClick={() =>setOpen(false)}
+       style={{marginTop:open ? 
+       '70px':'-70vw'}}>
           <li>
             <Link to='/'>Home</Link>
           </li>
@@ -20,6 +23,11 @@ const Header = () => {
          </ul>
         </nav>
       <div>foto</div>
+      <div className="movil-nav" onClick={() => setOpen(!open)}>
+     <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+     </div>
       
 
     </div>
