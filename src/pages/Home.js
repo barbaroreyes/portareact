@@ -7,10 +7,12 @@ const Home = () => {
        picture
       </div>
       <div className="dadproject">
+      <h1>Software </h1>
         <div className='kidproject'>Full-Stack</div>
         <div className='kidproject'>Front-End</div>
         <div className='kidproject'>Backend</div>
         <div className='kidproject'>UX_UI</div>
+        <h1> Engineer </h1>
         
         
        
