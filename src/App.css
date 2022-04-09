@@ -61,7 +61,7 @@ flex-wrap: wrap;
 ul{
   display: flex;
   z-index: 999;
-  transition: all 2s ease;
+  transition: all 1s ease;
 }
 li{
   list-style: none;
@@ -140,8 +140,7 @@ h1{
   .line{
     border: 1px solid black;
     margin : 3.1px;
-    z-index: 999;
-    transition: all 2s ease;
+    
   
   }.home{
     justify-content:center;
