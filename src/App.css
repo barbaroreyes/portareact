@@ -72,11 +72,30 @@ li a{
 }
 .home div{
   /* border: 1px solid black; */
-  width: 40%;
+  /* width: 40%;
   height : 60vh ;
   display:flex ;
   justify-content:center;
+  align-items:center; */
+}
+.dadproject{
+  display: flex;
+ 
+  width:  42%;
+  justify-content:center;
   align-items:center;
+  flex-wrap: wrap;
+
+}
+.kidproject{
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  
+  margin: 10px;
 }
 @media (max-width: 768px) {
   .cardInt{
@@ -87,6 +106,7 @@ li a{
     flex-direction: column;
     
   } .dadproject{
+  
     /* border: 1px solid black;
     width: 60%;
     height:70vh;
