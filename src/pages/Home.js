@@ -3,9 +3,9 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="home">
-      <div className="picture">
+      {/* <div className="picture">
        picture
-      </div>
+      </div> */}
       <div className="dadproject">
       <h1>Software </h1>
         <div className='kidproject'>Full-Stack</div>

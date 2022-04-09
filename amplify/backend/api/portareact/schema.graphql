@@ -10,4 +10,5 @@ type Project @model {
   live: String
   github: String
   category: String
+  
 }
