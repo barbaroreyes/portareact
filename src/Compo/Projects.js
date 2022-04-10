@@ -1,7 +1,7 @@
 import React ,{useContext}from 'react';
 import {ProjectContex } from '../contex/projects'
 import Project from '../Compo/Project'
-import {Link ,useNavigate} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 const Projects = () => {
     const projects  = useContext(ProjectContex)
   return (

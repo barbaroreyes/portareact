@@ -6,7 +6,9 @@ const Project = (props) => {
         <div className = "logo">
         <img className="logoImage" 
         src={props.description} alt=''
-        />
+        /></div>
+        <div className="btn-container-project-compo">
+        <button className="btn-project-compo">Go Inside</button>
         </div>
         </div>
         </div>

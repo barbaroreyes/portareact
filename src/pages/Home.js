@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {GrReactjs} from 'react-icons/gr'
+import {SiAmazonaws,SiGraphql} from 'react-icons/si'
 const Home = () => {
   return (
     <div className="home">
@@ -13,7 +15,14 @@ const Home = () => {
         <Link to='/projects'div className='kidproject'>Backend</Link>
         <Link to='/projects'div className='kidproject'>UX_UI</Link>
         <h1> Engineer </h1>
-        
+        <div className='iconos'>
+        <GrReactjs/>
+        <SiAmazonaws/>
+        <SiGraphql/>
+        <GrReactjs/> 
+        <GrReactjs/>
+        </div>
+
         
        
         {/* <div className='kidproject'>projec</div> */}
