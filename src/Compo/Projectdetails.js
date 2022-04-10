@@ -25,6 +25,7 @@ const Projectdetails = () => {
         </div>
        <div className = "btn-container">
        <button className='btn' onClick={()=>history('/projects')}> All Projects</button>
+       <button className='btn' onClick={()=>history('/')}> home</button>
        </div>
        </div>
 
