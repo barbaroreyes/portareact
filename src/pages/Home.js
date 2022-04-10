@@ -2,6 +2,10 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {GrReactjs} from 'react-icons/gr'
 import {SiAmazonaws,SiGraphql} from 'react-icons/si'
+import {DiGithubAlt} from "react-icons/di";
+import {SiCss3} from 'react-icons/si'
+import {DiMongodb} from 'react-icons/di'
+import {DiNodejsSmall} from 'react-icons/di'
 const Home = () => {
   return (
     <div className="home">
@@ -18,9 +22,10 @@ const Home = () => {
         <div className='iconos'>
         <GrReactjs/>
         <SiAmazonaws/>
-        <SiGraphql/>
-        <GrReactjs/> 
-        <GrReactjs/>
+        <DiGithubAlt/>
+        <SiCss3/> 
+        <DiMongodb/>
+        <DiNodejsSmall/>
         </div>
 
         

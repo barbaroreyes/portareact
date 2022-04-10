@@ -206,6 +206,7 @@ h1{
     color: crimson;
   }h1{
    font-size: 30px;
+   color: rgb(134,65,65);
   }.card-only{
     border: 1px solid;
     width: 100%;
@@ -269,6 +270,7 @@ h1{
     margin-top:10px;
   }.iconos{
     font-size: 50px;
+    color: rgb(134,65,65);
   }
 }
 @media (min-width: 770px) {
