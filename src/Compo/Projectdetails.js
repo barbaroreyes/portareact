@@ -11,16 +11,21 @@ const Projectdetails = () => {
      console.log('hello')
   return (
     <div className="card-project">
-       <div className="card">
-       <h3>{name}</h3>
-        <a href={live}>live</a>
-        <h3>{tecnologies}</h3>
-        <a href={github}>github</a>
-        <h4>{category}</h4>
+       <div className="card-detail">
+         <div className="info">
+          <h3>{name}</h3>
+          <a href={live}>Live</a>
+          <h3>{tecnologies}</h3>
+          <a href={github}>github</a>
+         <h4>{category}</h4>
+         </div>
+       
         <div className = "logo">
         <img className="logoImage" src = {description} alt=''/>
         </div>
-        <button onClick={()=>history('/projects')}> All Projects</button>
+       <div className = "btn-container">
+       <button className='btn' onClick={()=>history('/projects')}> All Projects</button>
+       </div>
        </div>
 
       
