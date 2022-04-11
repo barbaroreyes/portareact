@@ -1,9 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {GrReactjs} from 'react-icons/gr'
-import {SiAmazonaws,SiGraphql} from 'react-icons/si'
+import {SiAmazonaws,} from 'react-icons/si'
 import {DiGithubAlt} from "react-icons/di";
-import {SiCss3} from 'react-icons/si'
+import {} from 'react-icons/si'
+import {SiStripe,SiCss3,SiGraphql,SiHtml5} from 'react-icons/si'
+
+
 import {DiMongodb} from 'react-icons/di'
 import {DiNodejsSmall} from 'react-icons/di'
 const Home = () => {
@@ -26,17 +29,10 @@ const Home = () => {
         <SiCss3/> 
         <DiMongodb/>
         <DiNodejsSmall/>
+        <SiStripe/>
+        <SiGraphql/>
+        <SiHtml5/>
         </div>
-
-        
-       
-        {/* <div className='kidproject'>projec</div> */}
-        {/* <div className='kidproject'>projec</div>
-        
-        <div className='kidproject'>projec</div> */}
-       
-
-
       </div>
     </div>
   )
